@@ -10,10 +10,10 @@ export default function Footer() {
           <div className="lg:col-span-5 flex flex-col justify-between">
             <div>
               <Link href="/" className="inline-flex flex-col mb-6 group">
-                <span className="font-serif text-3xl tracking-[0.2em] font-light text-white">
+                <span className="font-sans font-[200] text-2xl sm:text-[26px] tracking-[0.32em] text-white uppercase group-hover:text-slate-300 transition-colors leading-none">
                   THE EIRA
                 </span>
-                <span className="text-[8px] tracking-[0.45em] text-slate-400 uppercase font-normal -mt-1">
+                <span className="font-sans font-[300] text-[8px] tracking-[0.52em] text-slate-400 uppercase mt-1 leading-none">
                   COLLECTION
                 </span>
               </Link>

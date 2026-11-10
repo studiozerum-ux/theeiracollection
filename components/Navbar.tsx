@@ -13,7 +13,7 @@ export default function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 30);
+      setScrolled(window.scrollY > 20);
     };
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
@@ -49,10 +49,10 @@ export default function Navbar() {
   return (
     <>
       <nav
-        className={`sticky top-0 left-0 w-full z-50 transition-all duration-500 ${
+        className={`sticky top-0 left-0 w-full z-50 transition-all duration-500 bg-[#06080C] text-white ${
           scrolled
-            ? "bg-[#F8F9FA]/95 backdrop-blur-md border-b border-black/[0.06] shadow-[0_4px_20px_rgba(0,0,0,0.02)] py-3"
-            : "bg-[#F8F9FA]/90 backdrop-blur-sm border-b border-black/[0.04] py-4"
+            ? "bg-[#06080C]/95 backdrop-blur-xl border-b border-white/[0.1] shadow-[0_12px_32px_rgba(0,0,0,0.4)] py-3"
+            : "bg-[#06080C]/85 backdrop-blur-md border-b border-white/[0.08] py-4"
         }`}
       >
         <div className="max-w-[1400px] mx-auto px-6 md:px-10 flex items-center justify-between">
@@ -60,29 +60,29 @@ export default function Navbar() {
           <div className="flex items-center gap-7 flex-1">
             <button
               onClick={() => setMenuOpen(true)}
-              className="flex items-center gap-2.5 text-[#06080C] hover:opacity-60 transition-opacity group"
+              className="flex items-center gap-2.5 text-white hover:text-slate-300 transition-colors group"
               aria-label="Open menu"
             >
               <div className="flex flex-col gap-[3.5px] w-4">
-                <span className="block h-[1px] w-full bg-current transition-all group-hover:w-3" />
-                <span className="block h-[1px] w-full bg-current" />
+                <span className="block h-[1px] w-full bg-white transition-all group-hover:w-3" />
+                <span className="block h-[1px] w-full bg-white" />
               </div>
-              <span className="text-[10px] font-semibold tracking-wideest uppercase">
+              <span className="text-[10px] font-medium tracking-wideest uppercase text-slate-200 group-hover:text-white transition-colors">
                 Menu
               </span>
             </button>
 
             <Link
               href="/explore"
-              className="hidden sm:inline-flex items-center gap-2 text-xs font-normal text-slate-800 hover:text-slate-500 transition-colors"
+              className="hidden sm:inline-flex items-center gap-2 text-xs font-normal text-slate-300 hover:text-white transition-colors"
             >
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
               The Map
             </Link>
 
             <Link
               href="/explore?type=stay"
-              className="hidden md:inline-flex text-xs font-normal text-slate-800 hover:text-slate-500 transition-colors"
+              className="hidden md:inline-flex text-xs font-normal text-slate-300 hover:text-white transition-colors"
             >
               Stays &amp; Sanctuaries
             </Link>
@@ -90,20 +90,20 @@ export default function Navbar() {
             {/* Cinema Link */}
             <Link
               href="/cinema"
-              className="hidden lg:inline-flex items-center gap-1.5 text-xs font-medium text-slate-900 hover:text-slate-500 transition-colors"
+              className="hidden lg:inline-flex items-center gap-1.5 text-xs font-normal text-slate-200 hover:text-white transition-colors"
             >
               <span className="text-[9px] text-slate-400">✦</span>
               Cinema Atelier
             </Link>
           </div>
 
-          {/* Center: Delicate Monogram Brand Logo */}
+          {/* Center: Slender Modern Sans-Serif Brand Mark */}
           <div className="flex-shrink-0 text-center">
-            <Link href="/" className="flex flex-col items-center group">
-              <span className="font-serif text-2xl md:text-[28px] tracking-[0.22em] font-light text-[#06080C] group-hover:opacity-75 transition-opacity">
+            <Link href="/" className="flex flex-col items-center group py-0.5">
+              <span className="font-sans font-[200] text-[15px] sm:text-[17px] tracking-[0.32em] text-white uppercase group-hover:text-slate-300 transition-colors leading-none">
                 THE EIRA
               </span>
-              <span className="text-[7.5px] md:text-[8px] tracking-[0.45em] text-slate-400 uppercase font-normal -mt-0.5">
+              <span className="font-sans font-[300] text-[7.5px] sm:text-[8px] tracking-[0.52em] text-slate-400 uppercase mt-1 leading-none">
                 COLLECTION
               </span>
             </Link>
@@ -113,14 +113,14 @@ export default function Navbar() {
           <div className="flex items-center justify-end gap-5 flex-1">
             <Link
               href="/magazine"
-              className="hidden lg:inline-flex text-xs font-normal text-slate-800 hover:text-slate-500 transition-colors"
+              className="hidden lg:inline-flex text-xs font-normal text-slate-300 hover:text-white transition-colors"
             >
               Magazine
             </Link>
 
             <button
               onClick={() => setSearchOpen(true)}
-              className="text-slate-800 hover:text-slate-500 transition-colors p-1"
+              className="text-slate-300 hover:text-white transition-colors p-1.5 rounded-full hover:bg-white/[0.06]"
               aria-label="Search collection"
               title="Search (⌘K)"
             >
@@ -129,7 +129,7 @@ export default function Navbar() {
 
             <Link
               href="/get-listed"
-              className="inline-flex items-center text-[10px] font-semibold tracking-wideest uppercase bg-[#06080C] hover:bg-slate-800 text-white px-4 py-2 rounded-full transition-all hover:scale-[1.02]"
+              className="inline-flex items-center text-[10px] font-semibold tracking-wideest uppercase bg-white hover:bg-slate-200 text-[#06080C] px-4 py-2 rounded-full transition-all hover:scale-[1.02] shadow-sm"
             >
               Get Listed
             </Link>
