@@ -5,13 +5,20 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "studio": "sanity dev",
+    "deploy-studio": "sanity deploy"
   },
   "dependencies": {
+    "@sanity/image-url": "^2.1.1",
+    "lucide-react": "^0.475.0",
     "next": "^15.1.0",
+    "next-sanity": "^13.4.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "lucide-react": "^0.475.0"
+    "sanity": "^6.23.0",
+    "styled-components": "^6.6.0",
+    "swr": "^2.2.5"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",
