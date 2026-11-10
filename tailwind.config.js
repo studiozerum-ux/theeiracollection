@@ -3,26 +3,50 @@ module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./data/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
       colors: {
         eira: {
-          black: "#0A0D11",
-          dark: "#12161D",
-          card: "#161B24",
-          gold: "#C5A57D",
-          "gold-light": "#DFCBB0",
-          "gold-muted": "#8E7554",
-          muted: "#7A828E",
-          faint: "#A5ACB8",
-          border: "rgba(20, 24, 33, 0.08)",
-          "border-subtle": "rgba(20, 24, 33, 0.04)",
-          "border-dark": "rgba(255, 255, 255, 0.07)",
-          alabaster: "#FCFCFA",
-          sand: "#F7F5F0",
-          subtle: "#F2EFE8",
-          ecru: "#ECE8DF",
+          // Nordic Deep Dark (pitch Arctic night, deep granite slate)
+          black: "#06080C",
+          dark: "#0D1117",
+          card: "#121720",
+          "card-hover": "#19212D",
+
+          // Cool Nordic Metals & Accents (Platinum, Arctic Silver, Glacial Ice)
+          platinum: "#94A3B8",
+          silver: "#CBD5E1",
+          ice: "#E2E8F0",
+          frost: "#F1F5F9",
+          
+          // Re-mapped gold to cool platinum/slate to eliminate warm yellow brass
+          gold: "#94A3B8",
+          "gold-light": "#E2E8F0",
+          "gold-muted": "#64748B",
+
+          // Crisp Cool Editorial Canvas (replacing warm sand/alabaster/ecru)
+          canvas: "#F8F9FA",
+          surface: "#FFFFFF",
+          panel: "#F1F4F8",
+          subtle: "#E9EEF4",
+          zinc: "#DDE3EA",
+          
+          // Backward-compatible aliases mapped to cool palette
+          sand: "#F1F4F8",
+          alabaster: "#F8F9FA",
+          ecru: "#DDE3EA",
+
+          // High-contrast slate typography
+          muted: "#64748B",
+          faint: "#94A3B8",
+
+          // Razor-sharp cool hairline borders
+          border: "rgba(15, 23, 42, 0.08)",
+          "border-subtle": "rgba(15, 23, 42, 0.04)",
+          "border-dark": "rgba(255, 255, 255, 0.08)",
+          "border-dark-hover": "rgba(255, 255, 255, 0.18)",
         },
       },
       fontFamily: {
