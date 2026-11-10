@@ -91,7 +91,12 @@ export const experienceType = defineType({
       options: {
         hotspot: true,
       },
-      validation: (Rule) => Rule.required(),
+    }),
+    defineField({
+      name: "externalImageUrl",
+      title: "Fallback External Image URL",
+      type: "url",
+      description: "Brukes automatisk hvis ingen Sanity-fil er lastet opp enda.",
     }),
     defineField({
       name: "gallery",

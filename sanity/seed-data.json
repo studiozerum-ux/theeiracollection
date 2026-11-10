@@ -1,0 +1,377 @@
+{
+  "EXPERIENCES": [
+    {
+      "id": "maaemo",
+      "slug": "maaemo",
+      "name": "Maaemo",
+      "type": "restaurant",
+      "country": "Norway",
+      "countryCode": "NO",
+      "city": "Oslo",
+      "locationString": "Oslo, Norway",
+      "distinction": "3 Michelin Stars",
+      "style": "New Nordic Haute Cuisine",
+      "priceLevel": "€€€€",
+      "priceIndication": "Tasting Menu from 4,900 NOK",
+      "heroImage": "https://images.unsplash.com/photo-1578474846511-04ba529f0b88?q=80&w=1800&auto=format&fit=crop",
+      "gallery": [
+        "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?q=80&w=1400&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?q=80&w=1400&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?q=80&w=1400&auto=format&fit=crop"
+      ],
+      "chefOrHost": "Esben Holmboe Bang",
+      "sommelierOrCellar": "Henrik Dahl Jahnsen (Rare biodynamic & cellar classics)",
+      "bookingUrl": "https://maaemo.no",
+      "openingHours": "Tuesday – Saturday: 18:00 – 24:00",
+      "address": "Dronning Eufemias gate 18, 0191 Oslo, Norway",
+      "quote": "“Maaemo translates from Old Norse as ‘Mother Earth’. Every course is an intimate, poetic confrontation with Norway’s raw fjords and primeval forests.”",
+      "editorialExcerpt": "A three-starred temple where the unyielding Norwegian wilderness is elevated into breathtaking culinary poetry.",
+      "editorialBody": [
+        "Maaemo occupies a monolithic concrete structure in Oslo’s Bjørvika district. Yet within this calm, darkened space, head chef Esben Holmboe Bang orchestrates what is arguably Europe's most uncompromising interpretation of northern terroir.",
+        "The meal begins not in the dining room, but in an ethereal salon overlooking the illuminated kitchen pass. Here, cold sea-water emulsions, hand-dived scallops preserved in birch oil, and roasted bone marrow arrive with silent choreography.",
+        "Each season re-sculpts the progression: winter brings salted and dried mutton with mountain berries, while spring bursts with fresh spruce tips, fjord langoustines, and wild beach herbs gathered by hand that very morning."
+      ],
+      "features": [
+        "Private Dining Room",
+        "Grand Tasting Menu",
+        "Cellar Pairings",
+        "Valet Service"
+      ],
+      "isFeatured": true,
+      "coordinates": {
+        "lat": 59.9075,
+        "lng": 10.7583
+      }
+    },
+    {
+      "id": "under",
+      "slug": "under",
+      "name": "Under",
+      "type": "restaurant",
+      "country": "Norway",
+      "countryCode": "NO",
+      "city": "Lindesnes",
+      "locationString": "Lindesnes, Norway",
+      "distinction": "1 Michelin Star & Snøhetta Landmark",
+      "style": "Submerged Marine Gastronomy",
+      "priceLevel": "€€€€",
+      "priceIndication": "Immersion Menu from 3,250 NOK",
+      "heroImage": "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?q=80&w=1800&auto=format&fit=crop",
+      "gallery": [
+        "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=1400&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1498084393753-b411b2d26b34?q=80&w=1400&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1563245372-f21724e3856d?q=80&w=1400&auto=format&fit=crop"
+      ],
+      "chefOrHost": "Nicolai Ellitsgaard",
+      "sommelierOrCellar": "Viktoria Lind (Coastal saline wines & cider pairings)",
+      "architect": "Snøhetta Architects",
+      "bookingUrl": "https://under.no",
+      "openingHours": "Wednesday – Sunday: Dinner sittings",
+      "address": "Bålyveien 50, 4521 Lindesnes, Norway",
+      "quote": "“Dining five meters beneath the waves as the North Sea swells crash against an eleven-meter acrylic pane is an encounter you never forget.”",
+      "editorialExcerpt": "Snøhetta’s architectural monolith resting half-submerged on the seabed of Norway’s weather-beaten southern cape.",
+      "editorialBody": [
+        "At Europe's northern gateway where the storms of Skagerrak meet the North Sea, a 34-meter concrete monolith breaks the sea surface and descends five meters down to the rocky seabed.",
+        "Inside Under, soft muted illumination mimics the gentle green filtering of sub-surface ocean light. Looking out through the colossal 11 x 3.4-meter panoramic acrylic window, guests watch wild cod, kelp forests, and luminous jellyfish drift by in their natural habitat.",
+        "The culinary narrative explores species rarely found on conventional menus: mahogany clams that have lived for centuries, limpets from tidal rocks, deep-sea cod tongue, and wild coastal seaweeds harvested along the shoreline."
+      ],
+      "features": [
+        "Subsea Panoramic Window",
+        "Snøhetta Architecture",
+        "Marine Biologist Curation"
+      ],
+      "isFeatured": true,
+      "isSpotlight": true,
+      "coordinates": {
+        "lat": 58.0436,
+        "lng": 7.1528
+      }
+    },
+    {
+      "id": "juvet",
+      "slug": "juvet-landscape-hotel",
+      "name": "Juvet Landscape Hotel",
+      "type": "stay",
+      "country": "Norway",
+      "countryCode": "NO",
+      "city": "Valldal",
+      "locationString": "Valldal, Norway",
+      "distinction": "Iconic Sanctuary",
+      "style": "Nordic Minimalist Retreat",
+      "priceLevel": "€€€€",
+      "priceIndication": "Rooms including 3-course dinner from 6,200 NOK",
+      "heroImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1800&auto=format&fit=crop",
+      "gallery": [
+        "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=1400&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=1400&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1400&auto=format&fit=crop"
+      ],
+      "chefOrHost": "Knut Slinning",
+      "architect": "Jensen & Skodvin Architects",
+      "bookingUrl": "https://juvet.com",
+      "openingHours": "Open year-round upon request",
+      "address": "Alstad, 6210 Valldal, Møre og Romsdal, Norway",
+      "quote": "“When night settles and the glacial river roars beneath your glass cube, there is no more meditative sanctuary on earth.”",
+      "editorialExcerpt": "Individual glass-and-timber cubes placed into primeval birch forest. The international benchmark for quiet architectural luxury.",
+      "editorialBody": [
+        "World-famous as the hauntingly sleek backdrop in Alex Garland’s *Ex Machina* and HBO’s *Succession*, Juvet remains delightfully grounded in its serene rural reality.",
+        "Nine individual landscape cubes perch on steel rods drilled into the riverbed rock. Inside, the walls are stained dark pine, deliberately keeping artificial light to a minimum so that the forest and river view dominates completely.",
+        "Evenings gather guests around a communal wooden refectory table inside a restored 19th-century farm barn, where slow-braised local venison and cloudberry desserts are served with unhurried warmth."
+      ],
+      "features": [
+        "Riverside Sauna & Bathhouse",
+        "Private Glass Cabins",
+        "Farmhouse Communal Dining"
+      ],
+      "isFeatured": true,
+      "coordinates": {
+        "lat": 62.3167,
+        "lng": 7.2833
+      }
+    },
+    {
+      "id": "ett-hem",
+      "slug": "ett-hem",
+      "name": "Ett Hem",
+      "type": "stay",
+      "country": "Sweden",
+      "countryCode": "SE",
+      "city": "Stockholm",
+      "locationString": "Stockholm, Sweden",
+      "distinction": "Boutique Townhouse Masterpiece",
+      "style": "Residential Haute Elegance",
+      "priceLevel": "€€€€",
+      "priceIndication": "Rooms from 7,500 SEK / night",
+      "heroImage": "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?q=80&w=1800&auto=format&fit=crop",
+      "gallery": [
+        "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?q=80&w=1400&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1400&auto=format&fit=crop"
+      ],
+      "chefOrHost": "Jeanette Mix & Ilse Crawford",
+      "architect": "Ilse Crawford Studio",
+      "bookingUrl": "https://etthem.se",
+      "openingHours": "Open 24/7 for resident guests",
+      "address": "Sköldungagatan 2, 114 27 Stockholm, Sweden",
+      "quote": "“Ett Hem redefined what a luxury hotel can be: not a lobby with keycards, but an impeccably curated private residence where you wander into the kitchen in slippers.”",
+      "editorialExcerpt": "Ilse Crawford’s definitive triumph in residential luxury: twelve suites in an Art Nouveau red-brick villa in Lärkstaden.",
+      "editorialBody": [
+        "Hidden along a tranquil cobblestone street in Stockholm’s diplomatic enclave, Ett Hem was built in 1910 as a private mansion.",
+        "Design virtuoso Ilse Crawford transformed the interior with a rare synthesis of vintage mid-century Scandinavian furniture, tactile Gotland sheepskins, brass fireplaces, and an open kitchen where chefs prepare spontaneous seasonal dishes on demand.",
+        "Guests are invited to raid the SMEG refrigerator for champagne, read by the library hearth, or relax in the glasshouse courtyard shaded by apple trees."
+      ],
+      "features": [
+        "Private Courtyard Garden",
+        "Wood-fired Sauna & Gym",
+        "Open Kitchen Concept"
+      ],
+      "isFeatured": false,
+      "coordinates": {
+        "lat": 59.3456,
+        "lng": 18.0678
+      }
+    },
+    {
+      "id": "falsled-kro",
+      "slug": "falsled-kro",
+      "name": "Falsled Kro",
+      "type": "stay",
+      "country": "Denmark",
+      "countryCode": "DK",
+      "city": "Millinge",
+      "locationString": "Funen, Denmark",
+      "distinction": "Relais & Châteaux Historic Estate",
+      "style": "French-Nordic Coastal Inn",
+      "priceLevel": "€€€€",
+      "priceIndication": "Stay & Grand Gourmet from 5,200 DKK",
+      "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1800&auto=format&fit=crop",
+      "gallery": [
+        "https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1400&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=1400&auto=format&fit=crop"
+      ],
+      "chefOrHost": "Kasper Tind Hasse",
+      "bookingUrl": "https://falsledkro.dk",
+      "openingHours": "Wednesday – Sunday",
+      "address": "Assensvej 513, 5642 Millinge, Funen, Denmark",
+      "quote": "“Straw-thatched roofs, roaring open hearths, and crystal glasses clinking under 16th-century timber beams by the sea.”",
+      "editorialExcerpt": "The birthground of modern Danish gastronomy. Half a century of pastoral luxury overlooking Helnæs Bay.",
+      "editorialBody": [
+        "With its whitewashed walls, thatch roof, and 1,000-square-meter kitchen garden stretching toward the Danish sea, Falsled Kro has set the standard for Nordic hospitality since the 1970s.",
+        "The dining room marries classic French culinary technique with vegetables and edible blooms harvested minutes before plating. Bedrooms feature open fireplaces, goose-down duvets, and hand-carved furniture."
+      ],
+      "features": [
+        "Heritage Relais & Châteaux",
+        "Extensive Kitchen Herb Garden",
+        "Sea-view Suites"
+      ],
+      "isFeatured": false,
+      "coordinates": {
+        "lat": 55.1583,
+        "lng": 10.1417
+      }
+    },
+    {
+      "id": "schloss-schauenstein",
+      "slug": "schloss-schauenstein",
+      "name": "Schloss Schauenstein",
+      "type": "restaurant",
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "city": "Fürstenau",
+      "locationString": "Fürstenau, Switzerland",
+      "distinction": "3 Michelin Stars & Green Star",
+      "style": "Alpine Grand Cru Gastronomy",
+      "priceLevel": "€€€€",
+      "priceIndication": "Schloss Menu from 340 CHF",
+      "heroImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1800&auto=format&fit=crop",
+      "gallery": [
+        "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=1400&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1400&auto=format&fit=crop"
+      ],
+      "chefOrHost": "Andreas Caminada",
+      "sommelierOrCellar": "Marc Almert (World Champion Sommelier selection)",
+      "bookingUrl": "https://schauenstein.ch",
+      "openingHours": "Wednesday – Sunday",
+      "address": "Schlossgass 77, 7414 Fürstenau, Switzerland",
+      "quote": "“Andreas Caminada’s cuisine is so mathematically balanced and harmoniously layered that it verges on alpine architecture.”",
+      "editorialExcerpt": "An 800-year-old castle tucked into the Swiss Alps, transformed into one of the planet’s most celebrated culinary sanctuaries.",
+      "editorialBody": [
+        "In the world’s smallest documented city, Fürstenau, Andreas Caminada has spent two decades constructing a benchmark of culinary perfection.",
+        "Holder of three Michelin stars and a Michelin Green Star, Caminada works exclusively with the surrounding Graubünden valleys: ancient varieties of cabbage, alpine river trout, and high-altitude berries.",
+        "Nine guest suites within the castle tower provide an unforgettable retreat after dinner, with breakfast served on the garden ramparts overlooking snow-capped peaks."
+      ],
+      "features": [
+        "Castle Suites",
+        "Michelin Green Star",
+        "Helipad & Alpine Cellar"
+      ],
+      "isFeatured": true,
+      "coordinates": {
+        "lat": 46.7694,
+        "lng": 9.4444
+      }
+    },
+    {
+      "id": "plenitude",
+      "slug": "plenitude-paris",
+      "name": "Plénitude – Cheval Blanc",
+      "type": "restaurant",
+      "country": "France",
+      "countryCode": "FR",
+      "city": "Paris",
+      "locationString": "Paris, France",
+      "distinction": "3 Michelin Stars",
+      "style": "Contemporary French Haute Sauce",
+      "priceLevel": "€€€€",
+      "priceIndication": "Symphonie Menu from 450 €",
+      "heroImage": "https://images.unsplash.com/photo-1551218808-94e220e084d2?q=80&w=1800&auto=format&fit=crop",
+      "gallery": [
+        "https://images.unsplash.com/photo-1578474846511-04ba529f0b88?q=80&w=1400&auto=format&fit=crop"
+      ],
+      "chefOrHost": "Arnaud Donckele",
+      "sommelierOrCellar": "Emmanuel Cadieu",
+      "bookingUrl": "https://chevalblanc.com/paris/plenitude",
+      "openingHours": "Tuesday – Saturday: 19:30 – 23:30",
+      "address": "8 Quai du Louvre, 75001 Paris, France",
+      "quote": "“Donckele does not merely prepare food; he awakens emotional depths you never knew existed inside a sauce reduction.”",
+      "editorialExcerpt": "Arnaud Donckele’s masterwork on the banks of the Seine. Where sauces are treated as the very soul of gastronomy.",
+      "editorialBody": [
+        "On the first floor of LVMH's palace hotel Cheval Blanc, overlooking Pont Neuf, Arnaud Donckele achieved three Michelin stars in historic record time.",
+        "At Plénitude, the classical hierarchy of dining is turned on its head: each dish begins with the sauce — broths, infusions, veloutés, and essences simmered for days — around which prime meats, rare fish, and vegetables are composed to match."
+      ],
+      "features": [
+        "Seine River Views",
+        "LVMH Palace Setting",
+        "World-renowned Sauces"
+      ],
+      "isFeatured": false,
+      "coordinates": {
+        "lat": 48.8592,
+        "lng": 2.3417
+      }
+    },
+    {
+      "id": "hoshinoya-kyoto",
+      "slug": "hoshinoya-kyoto",
+      "name": "Hoshinoya Kyoto",
+      "type": "stay",
+      "country": "Japan",
+      "countryCode": "JP",
+      "city": "Kyoto",
+      "locationString": "Kyoto, Japan",
+      "distinction": "Riverside Ryokan Sanctuary",
+      "style": "Traditional Kaiseki & Water Retreat",
+      "priceLevel": "€€€€",
+      "priceIndication": "Pavilion from 115,000 JPY / night",
+      "heroImage": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=1800&auto=format&fit=crop",
+      "gallery": [
+        "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1400&auto=format&fit=crop"
+      ],
+      "chefOrHost": "Ichiro Kubota",
+      "bookingUrl": "https://hoshinoya.com/kyoto/en/",
+      "openingHours": "Seasonal reservations",
+      "address": "11-2 Arashiyama Genrokuzancho, Nishikyo Ward, Kyoto, Japan",
+      "quote": "“Arriving by wooden longboat along the Oi river into a quiet valley of maple trees. Time itself dissolves.”",
+      "editorialExcerpt": "A protected 17th-century riverside retreat reached only by boat through the Arashiyama gorge.",
+      "editorialBody": [
+        "Your journey begins at the Arashiyama dock where a silent wooden boat glides upriver between dramatic cliffs and ancient cedar groves.",
+        "The riverside pavilions feature delicate wood joinery, hand-block-printed washi wallpaper, and tatami mats that filter the changing morning light. Multi-course Kaiseki dinners celebrate micro-seasons with exquisite ceramic artistry."
+      ],
+      "features": [
+        "Private Boat Arrival",
+        "Gorge View Verandas",
+        "Seasonal Kaiseki"
+      ],
+      "isFeatured": false,
+      "coordinates": {
+        "lat": 35.0116,
+        "lng": 135.6775
+      }
+    }
+  ],
+  "STORIES": [
+    {
+      "id": "fire-sea-salt",
+      "slug": "the-essence-of-nordic-terroir",
+      "title": "Fire, Sea & Salt: The New Philosophy of Nordic Terroir",
+      "category": "Terroir & Philosophy",
+      "readTime": "6 min read",
+      "date": "November 2026",
+      "image": "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?q=80&w=1200&auto=format&fit=crop",
+      "excerpt": "For centuries, luxury was defined by white tablecloths and imported foie gras. Today, the world's most discerning diners travel thousands of miles for hand-harvested kelp and birch smoke.",
+      "content": [
+        "Something profound has shifted in the collective consciousness of fine dining. Where opulence once meant gilded chandeliers and marble halls, luxury today is defined by purity, scarcity, and honesty.",
+        "Across the cold fjords of Western Norway and the windswept coasts of Jutland, a new generation of chefs has discarded imported luxuries in favor of hyper-local ingredients: seaweed plucked at low tide, wild cloudberries frozen on mountain bogs, and birch wood embers.",
+        "It is a culinary philosophy that demands total immersion. When you eat a sea urchin pulled from Arctic waters that very afternoon, you are not merely having dinner — you are tasting the exact coordinates of time and place."
+      ]
+    },
+    {
+      "id": "art-of-scarcity",
+      "slug": "the-art-of-deliberate-scarcity",
+      "title": "The Art of Deliberate Scarcity: Why The Eira Collection Stays Small",
+      "category": "Editorial Dispatch",
+      "readTime": "4 min read",
+      "date": "October 2026",
+      "image": "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?q=80&w=1200&auto=format&fit=crop",
+      "excerpt": "In an internet dominated by algorithmic top-50 rankings and crowded directories, true curation is defined by the courage to say no.",
+      "content": [
+        "The modern traveler is overwhelmed by automated recommendations and sponsored placements. Every city boasts dozens of so-called 'must-visit' venues.",
+        "The Eira Collection was founded on a contrary premise: deliberate scarcity. We believe that true distinction cannot be mass-produced.",
+        "Every single restaurant, retreat, and sanctuary in our guide has earned its place through relentless technical consistency, architectural integrity, and authentic human warmth. No paid placements. No compromises."
+      ]
+    },
+    {
+      "id": "alpine-light-cellars",
+      "slug": "alpine-light-and-deep-cellars",
+      "title": "Alpine Light & Deep Cellars: Three Days in Graubünden",
+      "category": "Travel Notes",
+      "readTime": "8 min read",
+      "date": "September 2026",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1200&auto=format&fit=crop",
+      "excerpt": "From Zurich into the Rhine Valley, where ancient castle keeps and high-altitude vineyards cling to sheer alpine granite.",
+      "content": [
+        "As the train winds upwards from Chur into the dramatic valley of Domleschg, the light changes. Sharp, thin mountain air illuminates 800-year-old stone fortresses nestled against sheer granite cliffs.",
+        "Here in Fürstenau, Andreas Caminada has crafted a world-class culinary sanctuary at Schloss Schauenstein that proves true luxury is about peace, place, and connection with nature."
+      ]
+    }
+  ]
+}

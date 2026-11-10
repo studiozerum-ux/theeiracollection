@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "studio": "sanity dev",
-    "deploy-studio": "sanity deploy"
+    "deploy-studio": "sanity deploy",
+    "seed": "node sanity/seed.mjs"
   },
   "dependencies": {
     "@sanity/image-url": "^2.1.1",

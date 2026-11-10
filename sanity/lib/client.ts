@@ -38,7 +38,7 @@ export async function getExperiences(): Promise<Experience[]> {
         style,
         priceLevel,
         priceIndication,
-        "heroImage": heroImage.asset->url,
+        "heroImage": coalesce(heroImage.asset->url, externalImageUrl),
         "gallery": gallery[].asset->url,
         chefOrHost,
         sommelierOrCellar,
@@ -83,7 +83,7 @@ export async function getExperienceBySlug(slug: string): Promise<Experience | un
         style,
         priceLevel,
         priceIndication,
-        "heroImage": heroImage.asset->url,
+        "heroImage": coalesce(heroImage.asset->url, externalImageUrl),
         "gallery": gallery[].asset->url,
         chefOrHost,
         sommelierOrCellar,
@@ -122,7 +122,7 @@ export async function getStories(): Promise<MagazineStory[]> {
         category,
         readTime,
         date,
-        "image": image.asset->url,
+        "image": coalesce(image.asset->url, externalImageUrl),
         excerpt,
         content
       }`
