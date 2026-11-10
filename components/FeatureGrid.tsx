@@ -9,15 +9,18 @@ export default function FeatureGrid() {
   const sideCards = featured.slice(1, 3);
 
   return (
-    <section className="py-20 md:py-28 bg-white border-b border-eira-border">
+    <section className="py-24 md:py-32 bg-[#FCFCFA] border-b border-black/[0.05]">
       <div className="max-w-[1400px] mx-auto px-6 md:px-10">
         {/* Section Header */}
-        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-12">
+        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-14">
           <div>
-            <span className="block text-[11px] tracking-[0.25em] uppercase font-semibold text-eira-muted mb-2">
-              Selected Rooms & Tables
-            </span>
-            <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-normal text-eira-black">
+            <div className="flex items-center gap-2 mb-2">
+              <span className="text-eira-gold text-xs">✦</span>
+              <span className="text-[10px] tracking-wideest uppercase font-semibold text-eira-muted">
+                Selected Rooms &amp; Stays
+              </span>
+            </div>
+            <h2 className="font-serif text-3xl sm:text-5xl font-light text-eira-black">
               This week on the pass
             </h2>
           </div>
@@ -35,40 +38,40 @@ export default function FeatureGrid() {
           <div className="lg:col-span-7">
             <Link
               href={`/experiences/${mainCard.slug}`}
-              className="group flex flex-col h-full bg-white border border-eira-border rounded hover:border-neutral-400 hover:shadow-xl transition-all duration-300"
+              className="group flex flex-col h-full bg-white border border-black/[0.06] rounded-sm hover:border-black/[0.16] hover:shadow-[0_20px_40px_rgba(0,0,0,0.03)] transition-all duration-500"
             >
-              <div className="relative aspect-[16/10] overflow-hidden bg-black rounded-t">
+              <div className="relative aspect-[16/10] overflow-hidden bg-black rounded-t-sm">
                 <img
                   src={mainCard.heroImage}
                   alt={mainCard.name}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 />
-                <span className="absolute top-4 left-4 bg-eira-black/80 backdrop-blur-md text-white text-[10px] tracking-widest uppercase font-semibold px-3 py-1.5 rounded">
+                <span className="absolute top-4 left-4 bg-eira-black/75 backdrop-blur-md text-white text-[9.5px] tracking-wideest uppercase font-semibold px-3 py-1.5 rounded-sm">
                   {mainCard.distinction}
                 </span>
                 <span className="absolute top-4 right-4 w-9 h-9 rounded-full bg-eira-black/70 backdrop-blur-md text-white flex items-center justify-center group-hover:bg-white group-hover:text-black group-hover:scale-110 transition-all">
-                  <ArrowUpRight className="w-4 h-4" />
+                  <ArrowUpRight className="w-4 h-4 stroke-[1.8]" />
                 </span>
               </div>
 
-              <div className="p-7 md:p-9 flex flex-col flex-1 justify-between">
+              <div className="p-7 md:p-10 flex flex-col flex-1 justify-between">
                 <div>
-                  <span className="text-[11px] tracking-widest uppercase font-semibold text-eira-muted block mb-2">
+                  <span className="text-[10px] tracking-wideest uppercase font-semibold text-eira-muted block mb-2">
                     {mainCard.locationString}
                   </span>
-                  <h3 className="font-serif text-3xl md:text-4xl text-eira-black mb-3 group-hover:text-eira-gold transition-colors">
+                  <h3 className="font-serif text-3xl md:text-[38px] font-light leading-tight text-eira-black mb-3 group-hover:text-eira-gold transition-colors">
                     {mainCard.name}
                   </h3>
-                  <p className="text-eira-muted text-sm leading-relaxed mb-6">
+                  <p className="text-eira-muted text-sm leading-relaxed mb-6 font-light">
                     {mainCard.editorialExcerpt}
                   </p>
                 </div>
 
-                <div className="flex items-center justify-between pt-5 border-t border-eira-border text-xs">
-                  <span className="font-semibold text-eira-black">
+                <div className="flex items-center justify-between pt-5 border-t border-black/[0.06] text-xs">
+                  <span className="font-medium text-eira-black">
                     {mainCard.priceIndication}
                   </span>
-                  <span className="font-semibold text-eira-gold group-hover:translate-x-1 transition-transform">
+                  <span className="font-semibold text-eira-gold group-hover:translate-x-1 transition-transform tracking-wider uppercase text-[11px]">
                     View room &rarr;
                   </span>
                 </div>
@@ -82,7 +85,7 @@ export default function FeatureGrid() {
               <Link
                 key={item.id}
                 href={`/experiences/${item.slug}`}
-                className="group flex flex-col sm:flex-row flex-1 bg-white border border-eira-border rounded hover:border-neutral-400 hover:shadow-lg transition-all duration-300 overflow-hidden"
+                className="group flex flex-col sm:flex-row flex-1 bg-white border border-black/[0.06] rounded-sm hover:border-black/[0.16] hover:shadow-[0_16px_30px_rgba(0,0,0,0.03)] transition-all duration-500 overflow-hidden"
               >
                 <div className="relative w-full sm:w-2/5 aspect-[16/10] sm:aspect-auto overflow-hidden bg-black">
                   <img
@@ -90,29 +93,29 @@ export default function FeatureGrid() {
                     alt={item.name}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   />
-                  <span className="absolute top-3 left-3 bg-eira-black/80 backdrop-blur-md text-white text-[9px] tracking-wider uppercase font-semibold px-2.5 py-1 rounded">
-                    {item.type === "restaurant" ? "Fine Dining" : "Sanctuary"}
+                  <span className="absolute top-3 left-3 bg-eira-black/75 backdrop-blur-md text-white text-[9px] tracking-wider uppercase font-semibold px-2.5 py-1 rounded-sm">
+                    {item.type === "restaurant" ? "Dining" : "Sanctuary"}
                   </span>
                 </div>
 
                 <div className="p-6 w-full sm:w-3/5 flex flex-col justify-between">
                   <div>
-                    <span className="text-[10px] tracking-widest uppercase font-semibold text-eira-muted block mb-1">
+                    <span className="text-[9.5px] tracking-wideest uppercase font-semibold text-eira-muted block mb-1">
                       {item.locationString}
                     </span>
-                    <h3 className="font-serif text-2xl text-eira-black mb-2 group-hover:text-eira-gold transition-colors">
+                    <h3 className="font-serif text-2xl font-light text-eira-black mb-2 group-hover:text-eira-gold transition-colors">
                       {item.name}
                     </h3>
-                    <p className="text-eira-muted text-xs leading-relaxed line-clamp-2 mb-4">
+                    <p className="text-eira-muted text-xs leading-relaxed line-clamp-2 mb-4 font-light">
                       {item.editorialExcerpt}
                     </p>
                   </div>
 
-                  <div className="flex items-center justify-between pt-3 border-t border-eira-border text-xs">
+                  <div className="flex items-center justify-between pt-3 border-t border-black/[0.06] text-xs">
                     <span className="font-medium text-eira-black text-[11px]">
                       {item.priceIndication}
                     </span>
-                    <span className="font-semibold text-eira-gold group-hover:translate-x-1 transition-transform text-[11px]">
+                    <span className="font-semibold text-eira-gold group-hover:translate-x-1 transition-transform text-[10px] tracking-wider uppercase">
                       View &rarr;
                     </span>
                   </div>

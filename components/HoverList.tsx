@@ -15,10 +15,13 @@ export default function HoverList() {
         {/* Header */}
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-16">
           <div>
-            <span className="block text-[11px] tracking-[0.25em] uppercase font-semibold text-eira-gold mb-3">
-              Recently Curated
-            </span>
-            <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-light text-white">
+            <div className="flex items-center gap-2 mb-2">
+              <span className="text-eira-gold text-xs">✦</span>
+              <span className="text-[10px] tracking-wideest uppercase font-semibold text-eira-gold">
+                Recently Added
+              </span>
+            </div>
+            <h2 className="font-serif text-3xl sm:text-5xl font-light text-white">
               New on the collection
             </h2>
           </div>
@@ -44,24 +47,24 @@ export default function HoverList() {
                     setActiveImage(item.heroImage);
                     setActiveName(item.name);
                   }}
-                  className="group grid grid-cols-12 items-center py-6 px-2 border-t border-white/10 hover:bg-white/[0.04] transition-all duration-300"
+                  className="group grid grid-cols-12 items-center py-6 px-2 border-t border-white/10 hover:bg-white/[0.03] transition-all duration-300"
                 >
-                  <span className="col-span-1 text-xs text-eira-gold font-mono font-medium">
+                  <span className="col-span-1 text-[11px] text-eira-gold font-mono">
                     {numStr}
                   </span>
                   <div className="col-span-5 sm:col-span-6">
-                    <h3 className="font-serif text-2xl sm:text-3xl font-normal text-white group-hover:text-eira-gold group-hover:translate-x-2 transition-all">
+                    <h3 className="font-serif text-2xl sm:text-3xl font-light text-white group-hover:text-eira-gold group-hover:translate-x-2 transition-all">
                       {item.name}
                     </h3>
                   </div>
-                  <div className="hidden sm:block col-span-3 text-[11px] tracking-wider uppercase text-white/50">
+                  <div className="hidden sm:block col-span-3 text-[10px] tracking-wideest uppercase text-white/40 font-light">
                     {item.distinction}
                   </div>
-                  <div className="col-span-5 sm:col-span-2 text-xs text-white/50 text-right sm:text-left">
+                  <div className="col-span-5 sm:col-span-2 text-xs text-white/50 text-right sm:text-left font-light">
                     {item.city}
                   </div>
                   <div className="col-span-1 flex justify-end">
-                    <ArrowUpRight className="w-4 h-4 text-white/30 group-hover:text-eira-gold group-hover:translate-x-1 group-hover:-translate-y-1 transition-all" />
+                    <ArrowUpRight className="w-3.5 h-3.5 text-white/30 group-hover:text-eira-gold group-hover:translate-x-1 group-hover:-translate-y-1 transition-all" />
                   </div>
                 </Link>
               );
@@ -70,18 +73,18 @@ export default function HoverList() {
 
           {/* Sticky Image Preview Frame (Desktop) */}
           <div className="hidden lg:block lg:col-span-5 sticky top-28">
-            <div className="relative aspect-[4/3] rounded overflow-hidden shadow-2xl bg-black border border-white/10">
+            <div className="relative aspect-[4/3] rounded-sm overflow-hidden shadow-2xl bg-black border border-white/10">
               <img
                 src={activeImage}
                 alt={activeName}
                 className="w-full h-full object-cover transition-opacity duration-300"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-6">
+              <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/10 to-transparent flex items-end p-8">
                 <div>
-                  <span className="text-[10px] tracking-widest uppercase font-semibold text-eira-gold block mb-1">
-                    Preview
+                  <span className="text-[9px] tracking-wideest uppercase font-semibold text-eira-gold block mb-1">
+                    Live Preview
                   </span>
-                  <p className="font-serif text-2xl text-white font-normal">
+                  <p className="font-serif text-3xl text-white font-light">
                     {activeName}
                   </p>
                 </div>

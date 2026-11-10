@@ -41,7 +41,7 @@ export default function Hero() {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % HERO_SLIDES.length);
-    }, 6000);
+    }, 6500);
     return () => clearInterval(timer);
   }, []);
 
@@ -62,47 +62,48 @@ export default function Hero() {
             style={{ backgroundImage: `url(${slide.image})` }}
           />
         ))}
-        {/* Dark Vignette Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/20 to-eira-black/95 z-10" />
+        {/* Soft Film Vignette */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/45 via-black/15 to-eira-black/95 z-10" />
       </div>
 
       {/* Top Floating Pill Meta */}
       <div className="relative z-20 w-fit">
-        <div className="inline-flex items-center gap-3 bg-eira-black/75 backdrop-blur-md border border-white/15 px-4 py-2 rounded-full text-xs text-white">
-          <span className="text-[10px] tracking-widest uppercase font-semibold text-eira-gold">
-            Featured Destination
+        <div className="inline-flex items-center gap-3 bg-eira-black/70 backdrop-blur-md border border-white/10 px-4 py-1.5 rounded-full text-xs text-white shadow-lg">
+          <span className="text-[9px] tracking-wideest uppercase font-semibold text-eira-gold flex items-center gap-1.5">
+            <span className="w-1 h-1 rounded-full bg-emerald-400" />
+            Curated Destination
           </span>
-          <span className="w-1 h-1 rounded-full bg-white/40" />
+          <span className="w-[1px] h-3 bg-white/20" />
           <Link
             href={`/experiences/${active.slug}`}
-            className="font-medium hover:text-eira-gold transition-colors flex items-center gap-1.5"
+            className="font-light tracking-wide hover:text-eira-gold transition-colors flex items-center gap-1.5"
           >
             <span>{active.name}</span>
-            <span className="text-white/60 text-[11px]">({active.region})</span>
-            <ArrowUpRight className="w-3.5 h-3.5 text-eira-gold" />
+            <span className="text-white/50 text-[11px]">&middot; {active.region}</span>
+            <ArrowUpRight className="w-3 h-3 text-eira-gold" />
           </Link>
         </div>
       </div>
 
       {/* Bottom Typography & Headline */}
-      <div className="relative z-20 flex flex-col md:flex-row items-start md:items-end justify-between gap-6">
+      <div className="relative z-20 flex flex-col md:flex-row items-start md:items-end justify-between gap-6 pb-2">
         <div>
-          <span className="block text-[11px] tracking-[0.25em] uppercase font-semibold text-eira-gold mb-4">
-            Gastronomy &middot; Sanctuaries &middot; Europe &middot; Global
+          <span className="block text-[10px] tracking-wideest uppercase font-semibold text-eira-gold mb-4">
+            ✦ Gastronomy &middot; Sanctuaries &middot; Cinema Direction
           </span>
-          <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-light leading-[0.95] tracking-tight text-white max-w-4xl">
+          <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-[88px] font-light leading-[0.93] tracking-tight text-white max-w-4xl">
             The rooms and tables <br />
-            <em className="font-serif italic font-normal text-eira-gold-light">
+            <em className="font-serif italic font-normal text-eira-gold-light/95">
               worth the journey.
             </em>
           </h1>
         </div>
 
-        <div className="hidden md:flex flex-col items-end text-right text-xs tracking-widest uppercase text-white/60">
-          <span>(Scroll down)</span>
-          <span className="text-[10px] text-eira-gold mt-1 tracking-widest">
-            0{currentSlide + 1} / 0{HERO_SLIDES.length}
+        <div className="hidden md:flex flex-col items-end text-right text-[11px] tracking-wideest uppercase text-white/50 font-light">
+          <span className="text-eira-gold font-mono text-[10px] mb-1">
+            0{currentSlide + 1} &mdash; 0{HERO_SLIDES.length}
           </span>
+          <span>(Scroll to discover)</span>
         </div>
       </div>
     </header>

@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import Manifesto from "@/components/Manifesto";
 import FeatureGrid from "@/components/FeatureGrid";
+import CinemaSection from "@/components/CinemaSection";
 import Spotlight from "@/components/Spotlight";
 import HoverList from "@/components/HoverList";
 import RegionDirectory from "@/components/RegionDirectory";
@@ -15,6 +16,7 @@ export default function Home() {
       <Hero />
       <Manifesto />
       <FeatureGrid />
+      <CinemaSection />
       <Spotlight />
       <HoverList />
       <RegionDirectory />
